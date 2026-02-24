@@ -1,0 +1,40 @@
+tbody{
+    text-align: center;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: lightblue; */
+    padding: 30px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  
+  
+
+
+}
+.calender{
+    background-color:white;
+    padding: 30px 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    border:2px solid aqua;
+  
+     /* background-color: lightblue; */
+    
+    /* border: 20px solid grey;*/
+} 
+.calender h2{
+    margin-bottom: 20px;
+    color: #3e5366 ;
+}
+th{
+    color: #a6b5c4;
+}
+td{
+    color:#6e8090;
+    font-weight: bold;
+}

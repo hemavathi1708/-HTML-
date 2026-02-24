@@ -1,0 +1,242 @@
+
+/* .content ul{
+    border:2px solid red;
+    width: 100px;
+    display: inline;
+
+
+}
+ul h2{
+    text-align: left;
+}
+h1{
+   /* display:flex;
+   justify-content: center; */
+   /* display:inline;
+   margin-left: 100px;
+    
+  
+   
+    
+}
+hr{
+    margin-left: 150px;
+}  */
+
+
+
+/*
+ 
+h1{
+    margin-bottom: 50px;
+}
+.skills{
+    border:2px black solid;
+  
+    background-color:greenyellow;
+    min-width:200px;
+    padding:10px;
+    position:sticky;
+    top: 0px;
+    border-radius: 20px;
+}
+.skills p{
+    display:inline-block;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin:10px;
+    border-radius: 10px;
+    background-color: lightslategray;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+
+}
+.about{
+    border:2px black solid;
+    padding:30px;
+    border-radius: 20px;
+    min-height:500px;
+    max-width: 200px;
+    overflow: scroll;
+    margin:0;
+    scrollbar-width: none;
+   
+    width: 45%;
+   
+    
+}
+.skills ul p{
+    position: relative;
+    padding-left: 20px;
+ 
+}
+.skills ul p::before{
+    content:"";
+    position:absolute;
+    left: 0;
+    top: 4px;
+    height:15px;
+    width: 15px;
+    background-image: url("../Images/namsantower.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}*/
+
+
+
+
+
+/* body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Main Container */
+/* .profile-container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+} */
+
+/* Title */
+/* .profile-container h2 {
+    margin-bottom: 20px;
+} */
+
+/* Layout */
+/* .profile-content {
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* Left Card */
+/* .left-card {
+    width: 40%;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+} */
+
+/* Skills */
+/* .skills {
+    margin-top: 10px;
+}
+
+.skills span {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+    background-color: lightgray;
+    border-radius: 5px;
+} */
+
+/* Right Section */
+/* .right-section {
+    width: 50%;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+} */ 
+
+/*ps work*/
+*{
+    padding: 0;
+    margin:0;
+}
+.body{
+    display:flex;
+    justify-content: space-between;
+    background: linear-gradient(to right,purple,black);
+   
+
+}
+.overview h1{
+    margin-bottom: 20px;
+}
+.overview{
+    border: 2px grey solid;
+    padding: 20px;
+    margin:10px;
+    max-height: 200px; 
+    background-color: hotpink;
+    border-radius: 20px;
+
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px white solid;
+    height:100vh;
+    width: 70%;
+   margin: 50px;
+   margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.home{
+     border: 2px grey solid;
+    padding: 20px;
+    margin:10px;
+    max-width: 30%;
+    margin-top: 20px;
+    max-height: 30%;
+    background-color:lightgrey;
+    border-radius: 20px;
+
+}
+.about{
+     border: 2px grey solid;
+    padding: 20px;
+    margin:10px;
+      max-width: 30%;
+       margin-top: 20px;
+        max-height: 30%;
+        background-color: lightgrey;
+    border-radius: 20px;
+
+
+}
+.contact{
+     border: 2px grey solid;
+    padding: 20px;
+    margin:10px;
+      max-width: 30%;
+       margin-top: 20px;
+        max-height: 30%;
+        background-color:lightgrey;
+    border-radius: 20px;
+
+
+}
+.summary{
+     border: 2px grey solid;
+    padding: 20px;
+    margin:10px;
+      max-width: 30%;
+       margin-top: 20px;
+        max-height: 30%;
+        background-color:lightgray;
+    border-radius: 20px;
+
+
+}
+input{
+    min-width: 300px;
+    min-height: 150px;
+}
+hr{
+    flex-basis: 100%;
+    border:none;
+    height: 3px;
+    background: white;
+}
+

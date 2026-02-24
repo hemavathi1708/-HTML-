@@ -1,0 +1,10 @@
+h1{
+    color: whitesmoke;
+}
+p{
+    text-align: justify;
+    text-transform: capitalize ;
+    text-shadow: 10px 10px 5px deeppink;
+    word-spacing: 5px;
+    line-height: 30px;
+}

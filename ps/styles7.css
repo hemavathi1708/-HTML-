@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: deeppink;
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    cursor:pointer;
+    margin-bottom: 25px;
+
+}
+.topics{
+    display: flex;
+    gap:20px;
+    font-size: 20px;
+
+}
+.header h3:hover,.header span:hover{
+    color:gold;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    gap: 30px;
+    
+}
+.box1 .movie1,.box2 .movie2{
+     background:linear-gradient(to bottom,rgb(230, 12, 12),rgb(34, 32, 32));
+     border:none;
+     color: whitesmoke;
+     height:200px;
+     width:300px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 25px 25px 0px 0px;
+
+}
+.box1,.box2{
+    position:relative;
+    top: 50px;
+ 
+    
+}
+.about1,.about2{
+    background-color:rgb(115, 48, 0);
+    color:antiquewhite;
+}
+.about1 button,.about2 button{
+    background-color: green;
+    border-radius: 20px;
+    width:270px;
+    height:35px;
+   margin-left: 15px;
+}
+.status1{
+    position:absolute;
+    top:10px;
+    left:10px;
+    background-color: greenyellow;
+
+}
+.status2{
+    position:absolute;
+    top:10px;
+    left:10px;
+    background-color:yellow;
+
+}

@@ -1,0 +1,24 @@
+body {
+    background: url("../Images/hp-3.jpeg") no-repeat righ  ;
+    
+}
+.char{
+    color:darksalmon
+    
+}
+
+#header{
+    color:whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    width: 750px;
+    padding: 5px;
+    border-width:  5px  ;border-style: solid ;
+    border-radius: 50px 0px;
+    border-color:darkorchid;
+    text-align: center;
+    margin:50px;
+} 
+.char{
+    font-family:cursive;
+}

@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    border: 2px black solid;
+    padding: 40px;
+    column-gap: 20px;
+    margin: 50px;
+}
+.grid1 div{
+    border: 2px black solid;
+    padding:20px;
+    min-height: 150px;
+
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    column-gap: 40px;
+    margin: 50px;
+    margin: 0px 300px;
+}
+.grid2 div{
+    border: 2px black solid;
+    padding:20px;
+    min-height: 200px;
+
+}

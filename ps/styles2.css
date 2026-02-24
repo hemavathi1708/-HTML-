@@ -1,0 +1,23 @@
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 50px;
+    margin-left: 100px;
+    justify-content: center;
+    
+
+    
+}
+.box div{
+
+    border:2px black solid;
+    padding: 5px;
+    max-width: 300px;
+    min-height: 250px;
+    margin-bottom:50px;
+}
+.box3{
+    grid-row: span 2;
+}

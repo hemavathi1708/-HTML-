@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    color:white;
+    font-family: sans-serif;
+}
+.content{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top:70px;
+    column-gap:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.box1,.box2,.box3{
+    height:305px;
+    width:250px;
+    background-color: rgba(68, 124, 220, 0.2);
+    
+    border-radius:20px;
+    text-align: center;
+    padding:10px;
+    
+}
+.box1 ul,.box2 ul,.box3 ul{
+    list-style: none;
+    text-align: center;
+    color: darkgrey;
+    padding-right:50px;
+
+
+
+}
+button{
+    background: linear-gradient(to right,rgb(102, 102, 250),rgb(110, 255, 255));
+    width: 180px;
+    height:37px;
+    margin-top: 30px;
+    border-radius: 27px;
+    color:white;
+}
+.rec{
+    text-align: center;
+    z-index: 1;
+    position:absolute;
+    left:194px;
+    top:38px;
+
+
+}
+.rec button{
+
+     background: linear-gradient(to right,rgb(102, 102, 250),rgb(110, 255, 255));
+    width: 120px;
+    height:37px;
+    margin-top: 30px;
+    border-radius: 27px;
+    color:white;
+}
+.box2{
+    
+    position:relative;
+    /* left:300px; */
+  
+} 

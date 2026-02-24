@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head><title> file upload</title></head>
+    <body>
+        <h1>file upload in job application </h1>
+        <form enctype="multipart/form-data">
+        <P>
+            Your Name:
+            <input type="text" required>
+            <br>
+            Your Education:
+            <select name="degree" id="degree" required>
+                <option value="B.E.">B.E</option>
+                <option value="B.Tech.">B.Tech.</option>
+                <option value="B.C.A.">B.C.A.</option>
+                <option value="B.Sc."></option>
+            </select>
+            <br>
+            You want to apply for the position:
+            <select name="position" id="position" required>
+                <option value="Front End Developer">Front End Developer</option>
+                <option value="Back End Developer">Back End Developer</option>
+                <option value="Full Stack Developer">Full Stack Developer</option>
+
+            </select>
+            <br>
+            Your Resume:
+            <input type="file" name="resume" required>
+            
+            </P>
+         
+
+           <p> <button>send</button></p>
+           </form>
+        
+
+    </body>
+</html>

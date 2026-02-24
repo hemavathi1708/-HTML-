@@ -1,0 +1,29 @@
+body{
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background:radial-gradient(circle at 15% 20%, rgba(91, 91, 213,0.6),transparent 40%),
+         
+
+               radial-gradient(circle at 95% 95%,rgba(40, 233, 233, 0.997),transparent 40%)
+               black;
+                
+}
+
+.content{
+    border: rgba(117, 117, 117,0.2) 2px double;
+    background-color: rgba(0, 17, 55,0.4);
+    border-radius: 20px;
+    color: white;
+    padding:10px;
+    margin-top: 370px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+button{
+    background: linear-gradient(rgb(126, 97, 255));
+    color:white;
+    border-radius: 10px;
+    height: 35px;
+    font-family: sans-serif;
+}

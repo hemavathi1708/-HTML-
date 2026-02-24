@@ -1,0 +1,39 @@
+
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color: black;
+    color:white;
+    
+}
+.title{
+    text-align: center;
+    padding: 30px;
+    cursor: pointer;
+}
+.title:hover
+{
+    color:greenyellow;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* .images p{
+    text-align: justify;
+} */
+.images div{
+    width: 220px;
+
+    margin:5px;
+    cursor: pointer;
+    flex-basis: 20%;
+    
+}
+.images div:hover{
+    
+    color:gold;
+}
